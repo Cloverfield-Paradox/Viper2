@@ -17,8 +17,8 @@
     <!--title bar above navbar-->
     <div class="titlediv">
         <div class='ctr'>
-        <img id='titlebar'>
-    </div>
+            <img id='titlebar'>
+        </div>
         <h1>Viper's Den</h1>
         <h2>Welcome to my world.</h2>
     </div>
@@ -29,11 +29,16 @@
             <img src="images/orb-large.png" width=46px>
         </a>
         <a href="#home" class="left lnk" onclick="genAll()">Home</a>
-        <a href="#ascent" class="left lnk" onmouseover="changeHeader('ascent')" onmouseout="resetHeader()" onclick="genCard('ascent')">Ascent</a>
-        <a href="#bind" class="left lnk" onmouseover="changeHeader('bind')" onmouseout="resetHeader()" onclick="genCard('bind')">Bind</a>
-        <a href="#haven" class="left lnk" onmouseover="changeHeader('haven')" onmouseout="resetHeader()" onclick="genCard('haven')">Haven</a>
-        <a href="#icebox" class="left lnk" onmouseover="changeHeader('icebox')" onmouseout="resetHeader()" onclick="genCard('icebox')">Icebox</a>
-        <a class="left lnk" onmouseover="changeHeader('split')" onmouseout="resetHeader()" onclick="genCard('split')">Split</a>
+        <a href="#ascent" class="left lnk" onmouseover="changeHeader('ascent')" onmouseout="resetHeader()"
+            onclick="genCard('ascent')">Ascent</a>
+        <a href="#bind" class="left lnk" onmouseover="changeHeader('bind')" onmouseout="resetHeader()"
+            onclick="genCard('bind')">Bind</a>
+        <a href="#haven" class="left lnk" onmouseover="changeHeader('haven')" onmouseout="resetHeader()"
+            onclick="genCard('haven')">Haven</a>
+        <a href="#icebox" class="left lnk" onmouseover="changeHeader('icebox')" onmouseout="resetHeader()"
+            onclick="genCard('icebox')">Icebox</a>
+        <a class="left lnk" onmouseover="changeHeader('split')" onmouseout="resetHeader()"
+            onclick="genCard('split')">Split</a>
         <button id="sButton" type="submit" onclick="search()"></button>
         <input type="text" id="sbox" placeholder="Search.." onkeypress="sBoxPress(event)">
         <a href="#about" class="right lnk" onclick="about()">About</a>
@@ -45,17 +50,18 @@
         <div id="curTag1">
             <p>Tag1</p>
         </div>
-        <div id="curTag2"> 
+        <div id="curTag2">
             <p>Tag2</p>
         </div>
 
     </div>
     <div id="cardContainer" class="cardCenter">
     </div>
-    <div id="cardPop" class="cInfo">
-        
-    </div>
+    <div id="cInfoBg" class="cInfoBg">
+        <div id="cardPop" class="cInfo">
 
+        </div>
+    </div>
     <div style="height: 10000px;">
     </div>
 </body>

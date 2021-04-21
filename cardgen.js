@@ -210,7 +210,7 @@ function search() {
 function seeMore(media, type, description)
 {
     var moreContainer = document.getElementById('cardPop');
-    moreContainer.setAttribute('style', 'visibility: shown');
+    document.getElementById('cInfoBg').setAttribute('style', 'visibility: shown');
     
     if(type == 'img')
     {
@@ -237,5 +237,5 @@ function seeMore(media, type, description)
 }
 function closeMore()
 {
-    document.getElementById('cardPop').setAttribute('style', 'visibility: hidden');
+    document.getElementById('cInfoBg').setAttribute('style', 'visibility: hidden');
 }
